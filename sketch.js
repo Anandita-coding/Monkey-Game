@@ -76,7 +76,7 @@ function draw() {
 function obstacles() {
 
   if (frameCount % 100 === 0) {
-    var obstacle = createSprite(500, 280, 10, 10);
+    var obstacle = createSprite(500, 430, 10, 10);
     obstacle.addImage(obstacleImage);
     obstacle.scale = 0.3
     obstacle.velocityX = -10
